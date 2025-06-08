@@ -7,7 +7,7 @@ return (
         <Helmet>
             <title>About</title>
         </Helmet>
-        <div style={{ marginTop: '86px', minHeight: 'calc(-106px + 100vh)' }} className='bg-about text-white d-flex flex-column justify-content-center align-items-center'>
+        <div style={{ marginTop: '50px', minHeight: 'calc(-106px + 100vh)' }} className='bg-about text-white d-flex flex-column justify-content-center align-items-center'>
             <h2 className="text-uppercase mb-3 fs-1 fw-bolder">about component</h2>
             <div className='d-flex align-items-center justify-content-center mb-3'>
                 <div className="line me-3" style={{backgroundColor: 'white'}} />

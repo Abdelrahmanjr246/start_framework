@@ -3,6 +3,9 @@
     width: 100%;
     overflow-x: hidden;
 }
+body{
+    background-color: #2C3E50;
+}
 .inner {
     position: relative;
     overflow: hidden;

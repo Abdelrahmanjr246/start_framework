@@ -8,7 +8,7 @@ return (
         <Helmet>
             <title>Home</title>
         </Helmet>
-        <div style={{ marginTop: '86px', minHeight: 'calc(-106px + 100vh)' }} className='bg-about text-white text-center d-flex flex-column justify-content-center align-items-center'>        
+        <div style={{ marginTop: '50px', minHeight: '100vh' }} className='bg-about text-white text-center d-flex flex-column justify-content-center align-items-center'>        
             <div className="row flex-column justify-content-center align-items-center">
                 <div className="col">
                             <img src={avatar} className='w-75 mb-3'/>
