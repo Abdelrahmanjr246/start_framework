@@ -9,6 +9,7 @@ import Portfolio from './Components/Portfolio/Portfolio';
 import Contact from './Components/Contact/Contact';
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
 export default function App() {
   
 
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
 
